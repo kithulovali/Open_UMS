@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html">
+        <button class="back1">
+            back to welcome
+        </button>
+     </a>
+
+<main class="main1">
+    <form id="formreg" action="/login" method="post">
+        <figure>
+         <fieldset class="fieldset1">
+            <legend>user information</legend>
+            <label id="labelregister" for="username">
+                <input type="text" id="userinfo" name="username" placeholder="enter first name" required>
+                <input type="text" id="userinfo" name="username" placeholder="enter last name" required>
+                <input type="text" id="userinfo" name="username" placeholder="enter ID number" required>
+                <input type="email" id="userinfo" name="username" placeholder="enter email" required>
+                <input type="tel" id="userinfo" name="username" placeholder="enter phone number" required>      
+                <input type="date" id="userinfo" name="username" placeholder="enter birthdate" required>
+            </label>
+         </fieldset>
+
+         <fieldset class="fieldset1">
+            <legend>user privacy</legend>
+            <label id="labelregister" for="password">
+                <input type="password" id="userinfo" name="password" placeholder="enter password" required>
+                <input type="password" id="userinfo" name="password" placeholder="confirm password" required>
+                
+                <p>
+                    <input type="checkbox"> i aprove the terms and conditions <br>  
+                </p> 
+
+                <p> you already have an account? <a href="login.html" style="color: rgb(71, 66, 100);">login</a></p>
+            </label>
+         </fieldset>
+        </figure>
+        <a href="login.html">
+            <button class="submitreg">
+                Submit
+            </button>
+           </a>
+       
+        
+    </form>
+</main>
+
+</body>
+</html>

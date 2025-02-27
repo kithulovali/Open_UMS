@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>home</title>
+</head>
+<body>
+        <button class="parameter" onclick="parameter()">  
+                <i class="fas fa-sliders fa-2x"></i>
+        </button>
+    <div class="parameter_menu" readonly>
+        <i class="fas fa-close" onclick="close_menu()"></i>
+        <div id="parameter_menu_div1">
+            <button id="button_parameter">
+                <i class="fa fa-key">
+                    privacy    
+                </i>
+            </button>
+             
+                <i class="fa fa-moon" id="dark_mode" style="color: aliceblue; position: relative; margin: 10px;"> 
+                    dark mode 
+                </i>
+                <input type="checkbox" id="darkModeToggle" onchange="toggleDarkMode()" style="position: absolute; left: 70%;">   
+           
+            <button id="button_parameter">
+                <i class="fas fa-language"> language</i>
+            </button>
+
+        </div>
+            <p style="color: rgb(253, 253, 255); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> 
+                welcome to our website settings
+            </p>
+        
+        <div id="parameter_menu_div2">
+            <button id="button_parameter">
+                <i class="fas fa-question-circle "> help center</i>
+            </button>
+            <button id="button_parameter"> 
+                <i class="fas fa-book"> terms of use</i>
+            </button>
+        </div>
+        <p style=" color: rgb(253, 253, 255); font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">hope you enjoyed </p>
+        <div id="parameter_menu_div3">
+            <button id="logout">
+                <a href="index.html">
+                    <i class="fas fa-sign-out-alt"> log out</i>
+                </a>
+            </button>
+        </div>
+    </div>
+
+    <main class="main1" style="background-color: aliceblue; height: 100%;">
+        <div class="container_home">
+            <div class="container_home_div1">
+                <i class="fas fa-user-circle" id="user_icon_home"></i>
+                <div class="home_div1_1">
+                    <p class="username" id="h3_div1">username here</p>
+                    <p class="username" id="h3_div1">email here</p>
+                </div>
+            </div>
+            <div class="container_home_div2">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Bugema_logo.png" alt="university logo" style="height: 70px; width: 80px;">   
+                <div class="home_div2_1">
+                    <h4 class="username" id="h3_div3" style="color: rgb(157, 157, 243);">BUGEMA UNIVERSITY</h4>
+                    <p class="username" id="h3_div3">ID here</p>
+                    <p class="username" id="h3_div3">school / departement</p>
+                </div>
+            </div>
+            <div  class="container_home_div3">
+                <textarea rows="7" cols="40" name="news" id="news" translate="yes" readonly placeholder="find news here...." style="border-radius: 10px; height: 100%; width: 100%; cursor:default;"></textarea>
+            </div>
+        </div>
+    </main>
+
+
+<footer>
+    <button class="footer_buttons">
+        <a href="index.html">
+            <i class="fa fa-university fa-2x" id="footer_icons"> 
+                <br>
+                university
+            </i>
+        </a>
+    </button>
+    <button class="footer_buttons">
+        <a href="graduation.html">
+            <i class="fa fa-graduation-cap" id="footer_icons">
+                <br>
+                graduation
+            </i>
+        </a>
+    </button>
+    <button class="footer_buttons">
+        <a href="search.html">
+            <i class="fa fa-search" id="footer_icons">
+                <br>
+                search
+            </i>
+        </a>
+    </button>
+    <button class="footer_buttons">
+        <a href="grades.html">
+            <i class="fas fa-award" id="footer_icons">
+                <br>
+                grades
+            </i>
+        </a>
+    </button>
+    <button class="footer_buttons">
+        <a href="documents.html">
+            <i class="fas fa-file-alt" id="footer_icons">
+                <br>
+                documents
+            </i>
+        </a>
+    </button>
+   
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

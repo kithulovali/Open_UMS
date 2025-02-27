@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(125, 138, 150);
+    text-align: center;
+
+}
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-image: url("https://media.istockphoto.com/id/872254010/photo/college-university-campus-out-of-focus-background.jpg?s=612x612&w=0&k=20&c=ZPOOfK_8uZ4IFlOgnGw3dOJwLiYUJCDqRP5mjY1LZYk=");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 10px;
+    width: 100px;    
+}
+div{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    border: none;
+    background-color: black;
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+}

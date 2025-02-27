@@ -1,0 +1,211 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+}
+header{
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: blue;
+    background-image: url("https://media.istockphoto.com/id/872254010/photo/college-university-campus-out-of-focus-background.jpg?s=612x612&w=0&k=20&c=ZPOOfK_8uZ4IFlOgnGw3dOJwLiYUJCDqRP5mjY1LZYk=");
+    background-position: center;
+    background-size: cover;
+    height: fit-content;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10%;
+
+}
+.container_header_buttons{
+    position:  relative;
+    right: 15px;
+    top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    height: max-content;
+}
+#logo_univ{
+    height: 170px;
+    width: 200px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.main_university{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    width: 100%;
+
+}
+.presentation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(161, 161, 161);
+}
+.courses{
+    display:flex;
+    flex-direction: row;
+    height: fit-content;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    background-color: rgb(235, 233, 233);
+    padding: 10px 0 10px 0;
+    flex-grow: 1;
+    overflow-y: auto;
+}
+#div_IT,#div_business,#div_nursing,#div_pastor,#div_agri,#div_socialSC,#div_education{
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    padding: 4% 4% 0 4%;
+    height: 230px;
+    width: 50px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    transition: box-shadow 0.5s, opacity 0.5s, border 0.5s;
+}
+#div_IT:hover,#div_business:hover,#div_nursing:hover,#div_pastor:hover,#div_agri:hover,#div_socialSC:hover,#div_education:hover{
+    box-shadow: 0 0 10px 0 rgba(33, 32, 32, 0.9);
+    opacity: 0.8;
+    border: 0.1px solid rgba(0, 0, 0, 0.384);
+}
+#div_IT{
+    background-image: url("https://www.philippeville.be/ma-commune/vie-administrative/enseignement/it-school/it-school/@@images/image-750-e1d76b5511da2422e0a5c414ae791d71.png");
+    background-position: left;
+    background-position-x: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    background-color: white;
+
+}
+#div_business{
+    background-image: url("https://www.cdnlogo.com/logos/b/80/business-school.svg");
+    background-position: left;
+    background-position-x: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8400px;
+    background-color: white;
+}
+#div_nursing{
+    background-image: url("https://media.istockphoto.com/id/905921174/vector/bw-icon-stethoscope.jpg?s=612x612&w=0&k=20&c=VgmHle2kD6G3nkmvH3GRyrvILM23vbNc7Ds4rMPwIzE=");
+    background-position: left;
+    background-position-x: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8400px;
+    background-color: white;
+}
+#div_pastor{
+    background-image: url("https://media.istockphoto.com/id/1308016156/vector/christine-church-cross-logo.jpg?s=612x612&w=0&k=20&c=jNF1fIoQIj_51s7CMOsibHSGjKYfROtRtuslor8kUN8=");
+    background-position: left;
+    background-position-x: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8400px;
+    background-color: white;
+}
+#div_agri{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZcWPM_R2GZgUcpz-wzYu9GnCKoGACVTnCJw&s");
+    background-position: left;
+    background-position-x: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8400px;
+    background-color: rgba(255, 255, 255, 0.946);
+}
+#div_socialSC{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0_PoaICGPBfAs3HdoUBI8efRpzdaBqR56ng&s");
+    background-position: left;
+    background-position-x: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8400px;
+    background-color: rgba(255, 255, 255, 0.946);
+}
+#div_education{
+    background-image: url("https://cdnb.artstation.com/p/assets/images/images/034/563/813/large/shudhangshu-malakar-education-school-logo.jpg?1612626887");
+    background-position: left;
+    background-position-x: 30%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 8400px;
+    background-color: rgba(255, 255, 255, 0.946);
+}
+.container_buttons_univ{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+#button_univ{
+    height: max-content;
+    width: max-content;
+    border-radius: 10px;
+    border: none; 
+    transition: opacity 0.5s, backgroud-color 0.9s, border 0.5s, color 0.7s , box-shadow 0.5s;
+}
+#button_univ a{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+}
+#button_univ:hover{
+    color: aliceblue;
+    opacity: 0.8;
+    background-color: rgb(84, 127, 84);
+    border: 1px solid black;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
+}
+#button_univ:active{
+    opacity: 0.5;
+    background-color: aliceblue;
+    color: green;
+}
+#button_univ_portal{
+    background-color: rgb(91, 228, 91);
+    height: max-content;
+    width: max-content;
+    border-radius: 10px;
+    border: 2px solid rgb(184, 184, 202); 
+    transition: opacity 0.5s, backgroud-color 0.9s, border 0.5s, color 0.7s , box-shadow 0.5s;
+}
+#button_univ_portal a{
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: inherit;
+}
+#button_univ_portal:hover{
+    color: aliceblue;
+    opacity: 0.8;
+    background-color: rgb(243, 88, 88);
+    border: 1px solid black;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.9);
+}
+#button_univ_portal:active{
+    opacity: 0.5;
+    color: rgb(0, 0, 0);
+    background-color: rgb(194, 197, 9);
+
+}
