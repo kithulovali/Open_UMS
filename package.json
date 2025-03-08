@@ -1,0 +1,20 @@
+{
+  "name": "open_ums",
+  "version": "1.0.0",
+  "description": "| **Section**             | **Description**                                                                                     |\r |-------------------------|-----------------------------------------------------------------------------------------------------|\r | 🎓 **Project Title**        | University Management System (UMS)                                                                  |\r | 🎯 **Project Objective**    | 🎯 To create a comprehensive and scalable system that enhances the efficiency of university management, improves communication between stakeholders, and provides a centralized platform for managing academic, administrative, and student-related tasks. |\r | 👨‍💻 **Team Members**         | 👨‍💻 **Frontend**: Karim <br> 🧑‍💻 **Fullstack**: Goffart, Jean Marc Kithulovali <br> 🎨 **Designer**: Joel Mapendo |\r | 🌍 **Application**          | 🌍 UMS can be applied in universities worldwide to improve administration, reduce workload, and enhance communication between students, staff, and administration. |\r | 🤝 **Need for Contributions**| 🤝 We need help from developers, testers, and contributors worldwide to expand and improve this system. Your support will help make it accessible to universities globally. |\r | 📄 **License**              | 📄 MIT License                                                                                     |\r | 📧 **Contact**              | 📧 For issues or contributions, contact [kithulovalibin@gmail.com].                                               |",
+  "main": "script.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-scripts": "^5.0.1"
+  }
+}
